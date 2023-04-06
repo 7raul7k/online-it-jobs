@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h1>Online IT Jobs</h1>
+        <p>A simple website about our organization</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>  
+</header>
+
+<fieldset>
+    <legend><span class="number">1</span>Basic info</legend>
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first_name" name="first_name">
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" id="last_name" name="last_name">
+
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" name="username">
+
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" name="email">
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" name="password">
+
+    <label for="birthday">Birthday</label>
+    <input type="date" name="birthday" id="birthday" name="birthday">
+
+    <label for="number-phone">Phone:</label>
+    <input type="number" name="number-phone" id="number-phone">
+</fieldset>
+
+<fieldset>
+    <legend><span class="number">2</span>Your Job</legend>
+    <label for="radio">Biography</label>
+
+    <textarea name="bio" id="user_bio"></textarea>
+
+    <label for="job">Job Role:</label>
+    <select name="user_job" id="job">
+
+        <optgroup label="AI">
+        <option value="ai_researcher">AI Researcher</option>
+        <option value="data_scientist">Data Scientist</option>
+        <option value="machine_learning_engineer">Machine Learning Engineer</option>
+        <option value="deep_learning_enginner">Deep Learning Engineer</option>
+        <option value="robotics_scientist">Robotics Scientist</option>    
+        </optgroup>
+        <optgroup label="BlockChain">
+            <option value="blockchain_developer">BlockChain Developer</option>
+            <option value="blockchain_analyst">BlockChain Analyst</option>
+            <option value="cryptocurrency_writter">CryptoCurrency Writter</option>
+            <option value="blockchain_consultant">BlockChain Consultant</option>
+            <option value="cryptocurency_trader">CryptoCurrency Trader</option>
+        </optgroup>
+      <optgroup label="Cyber Security">
+            <option value="cyber_security_engineer">Cyber Security Engineer</option>
+            <option value="cyber_intelligence_analyst">Cyber Inteligence Analyst</option>
+            <option value="security_software_developer">Security Software Developer</option>
+            <option value="system_administrator">System Administrator</option>
+      </optgroup>
+      <option label="Software ">
+        <option value="software_engineer">Software Engineer</option>
+        <option value="software_developer">Software Developer</option>
+        <option value="software_arhitect">Software Arhitect</option>
+      </option>
+      <optgroup label="Web">
+        <option value="frontend_developer">Front-End Developer</option>
+        <option value="php_developer">PHP Developer</option>
+        <option value="python_developer">Python Developer</option>
+        <option value="rails_developer">Rackspace Developer</option>
+        <option value="web_designer">Web Designer</option>
+        <option value="wordpress_developer">WordPress Developer</option>
+    </optgroup>
+    </select>
+
+    <input type="submit" value="submit" name="submit">
+</fieldset>
+
+
+
+
+
+
+<aside>
+    <h3>Explore Jobs</h3>
+    <ol>
+        <li><a href="/articles/jobs/cyber-security-article.html">Cyber Security</a></li>
+        <li><a href="/articles/jobs/ai-developer-article.html">AI Developer</a></li>
+        <li><a href="/articles/jobs/blockchain-article.html">BlockChain Developer</a></li>
+        <li><a href="/articles/jobs/web-developer-article.html">Web Developer</a></li>
+        <li><a href="/articles/jobs/software-developer-article.html">Software Developer</a></li>
+    </ol>
+    <blockquote>
+        Maximize your reach and hiring success by posting your job add to 10+ job search sites within one tool and with one single login - for free.
+        <cite><a href="#">JOIN US</a></cite>
+    </blockquote>
+</aside>
+    <footer>
+        <p>&copy;2021 JOIN Company </p>
+    </footer>
+</body>
+</html>
