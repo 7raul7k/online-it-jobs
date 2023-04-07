@@ -12,7 +12,7 @@
         <p>A simple website about our organization</p>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../../../index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Articles</a></li>
             <li><a href="#">Contact</a></li>
@@ -75,11 +75,11 @@
             <option value="security_software_developer">Security Software Developer</option>
             <option value="system_administrator">System Administrator</option>
       </optgroup>
-      <option label="Software ">
+      <optgroup label="Software">
         <option value="software_engineer">Software Engineer</option>
         <option value="software_developer">Software Developer</option>
         <option value="software_arhitect">Software Arhitect</option>
-      </option>
+      </optgroup>
       <optgroup label="Web">
         <option value="frontend_developer">Front-End Developer</option>
         <option value="php_developer">PHP Developer</option>
@@ -90,8 +90,64 @@
     </optgroup>
     </select>
 
-    <input type="submit" value="submit" name="submit">
+
+    <label for="other_role">Other Role</label>
+    <input type="text" name="other_role" id="other_role">
+
+ 
 </fieldset>
+
+<fieldset>
+    <legend><span class="number">3</span>Register:</legend>
+    <label for="register">
+    
+        <label for="main-conference">Main Conference</label>
+        <input type="checkbox" name="main-conference" id="main-conference" >
+        <label for="node-js-workshop">Node JS Workshop</label>
+        <input type="checkbox" name="node-js-workshop" id="node-js-workshop">
+        <label for="ai-workshop">AI Workshop</label>
+        <input type="checkbox" name="ai-workshop" id="ai-workshop">
+        <label for="blockchain-workshop">BlockChain Workshop</label>
+        <input type="checkbox" name="blockchain-workshop" id="blockchain-workshop">
+        <label for="python-frameworks">Python frameworks</label>
+        <input type="checkbox" name="python-frameworks" id="python-frameworks">
+        <label for="javascript-framework">JavaScript Framework Workshop</label>
+        <input type="checkbox" name="javascript-framework" id="javascript-framework">
+        
+    </label>
+</fieldset>
+
+<fieldset>
+    <legend><span class="number">4</span>Payment Info:</legend>
+
+    <fieldset>
+        <label for="pay-with">I'm going to pay with:</label>
+        <select name="payment" id="payment">
+            <option value="methods">Methods:</option>
+            <option value="visa-card">Visa</option>
+            <option value="master-card">Master-card</option>
+            <option value="bank">Bank</option>
+            <option value="American Express">American Express</option>
+            <option value="cryptocurency">CryptoCurrency</option>
+        </select>
+
+        <label for="card-number">Card number:*</label>
+        <input type="text" name="card-number" id="card-number">
+        <label for="expirate-date">Expirate Date:</label>
+        <input type="month" name="expirate-date" id="expirate-date">
+        <label for="expirate-year">Expiration Year:</label>
+        <input type="number" name="expirate-year" id="expirate-year">
+        <label for="zip-code">Zip Code:*</label>
+        <input type="text" name="zip-code" id="zip-code">
+        <label for="cvv">CVV:*</label>
+        <input type="text" name="cvv" id="cvv">
+
+
+    </fieldset>
+
+    <input type="submit" value="Register" name="register" id="register">
+</fieldset>
+
 
 
 
